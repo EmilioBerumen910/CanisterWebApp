@@ -1,0 +1,324 @@
+*{font-family: 'Anybody', cursive;}
+
+.logo{
+
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow-x :hidden; 
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: felx;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header header{
+    width: 100%;
+    background: url(/images/BioDescription.jpg) no-repeat 50% 5% / cover;
+    min-height: calc(100px + 15vw);
+
+}  
+
+   nav{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    nav ul li {
+ 
+        list-style: none;
+        display: inline-block;
+        margin-left:40px ;
+    }
+    
+    nav ul li a {
+    
+        text-decoration: none;
+        color: #E9F0E7;
+        font-size: 25px;
+        right: 700px;
+       
+    }
+
+.header .cols .left-col{
+    padding: 25px 20px;
+    text-align: center;
+    max-width: 350px;
+    position: relative; 
+    margin: 0 auto;
+    right: 400px;
+    top: 170px;
+
+}
+
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#023020;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    
+    nav ul li:hover::after{
+    width: 100%;
+    
+    }
+
+.header .cols .left-col .img-container{
+    position: absolute;
+    top: -500px;
+    transform: translateX(-50%);
+    left: 400px;    
+    
+}
+
+.header .cols .left-col .img-container img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 50%;
+    display:block;
+    box-shadow: 1px 3px 12px rgb(0, 0, 0,0.18);
+   
+}   
+
+.header .cols .left-col h2{
+    margin-top: 1px;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 670px;
+    top: -450px;
+    color: #E9F0E7;
+}
+
+.header .cols .left-col p{
+    font-size: 0.9rem;
+    color: #6A8964;
+    margin: 0;
+    position: absolute;
+    top: 490px;
+    
+}
+
+.header .cols .left-col .data h4{
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0;
+    position: absolute;
+    top: -260px;
+    left: 690px;
+}
+
+.header .cols .left-col .about{
+    justify-content: space-between;
+    position: relative;
+    margin: 35px 0;
+    top: -290px;
+    left: 655px;
+    font-size: 30px;
+}
+
+.header .cols .left-col .about li{
+    display: flex;
+    flex-direction: column;
+    color: #023020;
+    font-size: 20px;
+}
+
+.header .cols .left-col .about li span{
+    color: #023020;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header .cols .left-col .about::after{
+    position: absolute;
+    content: "";
+    bottom: -16px;
+    display: block;
+    background:#6A8964;
+    height: 1px;
+    width: 100%;
+}
+
+.header .cols .content  p span{
+    font-size: 15px;
+    color: black;
+    line-height: 1.8rem;
+    position: absolute;
+    top: 300px;
+    left: 123px;
+
+}
+
+.header .cols .content ul{
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.header .cols .Bio p{
+
+    color: black;
+    font-size: larger;
+    position: absolute;
+    top: 190px;
+    left: 140px;
+     
+
+}
+
+.header .cols .content ul li{
+    font-size: 2.3rem;
+    position: absolute;
+    top: -145px;
+    left: 765px;
+}
+
+.header .cols .content .MasteryJournal{
+
+    position: absolute;
+    top: -25px;
+    left: 200px;
+
+}
+
+.photos{
+    position: relative;
+    left: 150px;
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 350px;
+    top: 230px;
+}
+
+.FilmImahe{
+    float: left;
+    width: 25%;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding: 10px; 
+    
+}
+
+
+
+
+  /*  Transitions */
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .FilmImahe:hover .Film-img {
+    color: crimson;
+    opacity: 0.3;
+  }
+  
+  .FilmImahe:hover .middle {
+    color: crimson;
+    opacity: 1;
+  }
+
+  .Film-img{
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-bottom: 20px;
+  }
+
+    /*  Figcaption */
+
+      .Caption-FmName{
+        padding-top: 10px;
+        color: black;
+        font-size: 20px;
+      }
+
+
+/*Responsivness*/
+
+@media(min-width:868px){  
+
+    .header .cols{
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 90%;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 50px;
+    }
+
+    .header .cols .left-col{
+        padding: 25px 0;
+    }
+
+    .header .cols .right-col nav ul{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /*.header .cols .right-col .photos{
+        height: 365px;
+        overflow: auto;
+        padding: 0 0 30px   ;
+    }*/
+
+  }
+
+  @media(min-width:1017px){
+    .header .cols .right-col nav ul{
+
+        flex-direction: row;
+        margin-right: auto;
+    }
+
+    .header .cols .right-col nav{
+        flex-direction: row;
+    }
+
+  }

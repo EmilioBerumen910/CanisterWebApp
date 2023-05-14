@@ -1,0 +1,86 @@
+.Themerow{
+    padding: 2rem;
+    position: relative;
+    left: 100px;
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+
+.Theme h1{
+    padding-top: 5rem;
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+.Theme {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.Theme {
+   background: white;
+   background-size: auto;
+
+}
+
+.Theme-col{
+
+    flex-basis: 100%;
+    border-radius: 5px;
+    margin-bottom:30px;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+.Theme img {
+    width: 100%;
+    max-width: 20rem;
+    max-height: 30rem;
+}
+
+.grow img{
+    transition: 1s ease;
+}
+    
+.grow img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+/* Set flex properties for the row and columns */
+.Themerow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Theme-col {
+    flex: 1 0 16rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Override the flex properties on smaller screens */
+  @media (max-width: 768px) {
+    .Themerow {
+        position: relative;
+        left: 45px;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .Theme-col {
+      flex: 0 0 auto;
+      max-width: 20rem;
+      max-height: 30rem;
+    
+    }
+  }

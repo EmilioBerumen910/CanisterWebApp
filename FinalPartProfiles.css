@@ -1,0 +1,28 @@
+/*-----------------End Zone---------------------*/
+
+
+div.stickyActors {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background:#f2f2f2;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  h2{
+    color: #fba92c;
+  }
+
+  a{
+    color: #fba92c;
+    padding-right: 30px;
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+
+
+
+
