@@ -1,0 +1,122 @@
+*{
+background:white;
+    font-family: 'Anybody', cursive;
+    box-sizing: border-box;
+}
+
+.container h1{
+    color: #fba92c;
+    margin-bottom: 30px;
+   
+}
+
+.container {
+    font-size: 30px;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    top: 2px;
+  
+  
+}
+
+
+#StudentsList {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    list-style: none;
+}
+
+.student {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #E9F0E7;
+    max-width: 400px;
+    max-width: 800px;
+    box-shadow:  #fba92c;
+    padding: 20px;
+}
+
+
+
+.student > h2 {
+    grid-area: name;
+    margin-bottom: 40px;
+    background-color: #E9F0E7;
+}
+
+.student > p {
+    grid-area: house;
+    margin-bottom: 20px;
+    margin-top: -35px;
+    background-color: #E9F0E7;
+}
+
+.student > img {
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+
+}
+
+.student > a {
+    background-color: #E9F0E7;
+    color: #fba92c;   
+    text-decoration: none;
+}
+
+.student a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#fba92c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+.student a:hover::after{
+        width: 50%;
+        
+}
+
+.logo{
+
+  width: 150px;
+  padding-top: 50px;
+  position: relative;
+  left: 80px;
+    
+}
+
+#searchBar {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E9F0E7;
+    padding: 5px 10px;
+    font-size: 25px;
+    color: #fba92c;
+    background-color: #E9F0E7;
+}
+
+#searchWrapper {
+    position: relative;
+   
+}
+
+#searchWrapper::after {
+    content: '🔍';
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Mario Rangel",
+    "program": "Film Master",
+    "image": "/images/PPs/MarioRangelBio.jpg",
+    "portafolio": "/Explore/MarioRangel.html"
+  },
+
+  {
+    "name": "Natalia Gonzales",
+    "program": "Film Master",
+    "image":"/images/PPs/NataliaGonzales.jpg",
+    "portafolio": "/Explore/NataliaGonzales.html"
+  },
+
+  {
+    "name": "Mateo Bekich",
+    "program": "Film Bachelor",
+    "image":"/images/PPs/MateoBekich.jpg",
+    "portafolio": "/Explore/MateoBekich.html"
+  },
+
+  {
+    "name": "Jacob Hightower",
+    "program": "Film Master",
+    "image":"/images/PPs/JacobHightower.jpg",
+    "portafolio": "/Explore/JacobHightower.html"
+  },
+
+  {
+    "name": "Fabiola Campos",
+    "program": "Film Bachelor",
+    "image":"/images/PPs/FabiolaCampos.jpg",
+    "portafolio": "/Explore/FabiolaCampos.html"
+  },
+
+  {
+    "name": "Mykyta Ktavčenko",
+    "program": "Film Associate",
+    "image":"/images/PPs/MykytaKtavčenko.jpg",
+    "portafolio": "/Explore/MykytaKtavčenko.html"
+  },
+
+
+  {
+    "name": "Emilio Bravo",
+    "program": "Film Bachelor"
+  },
+
+  {
+    "name": "Miguel Martinez",
+    "program": "Film Bachelor"
+  }
+
+
+]
